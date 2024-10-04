@@ -1,4 +1,26 @@
 <div class="navigation-wrapper">
+  <style>
+    .warning-box {
+        background-color: #ffcccc;
+        border: 2px solid #ff0000;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .warning-box p {
+        color: #ff0000;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+    }
+  </style>
+  <div class="warning-box">
+    <p>
+      This is not the real Bitcoin Core website. Please visit <a href="https://bitcoincore.org">bitcoincore.org</a> for the real site.
+    </p>
+  </div>
 	<div class="site-name">
         {% assign homelink = site.data.navigation[page.lang]['home'] %}
 		<a href="{{ homelink.url }}"><img src="/assets/images/bitcoin_core_logo_colored_reversed.png" alt="bitcoin core logo"></a>
