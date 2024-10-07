@@ -1,4 +1,6 @@
-# [bitcoincore.org](https://bitcoincore.org)
+# FAKE [bitcoincore.org](https://bitcoincore.org)
+
+Fake version of the Bitcoin Core website to use with Wargames on Warnet.
 
 This repository is the source code of the Bitcoin Core project website built with Jekyll.
 
