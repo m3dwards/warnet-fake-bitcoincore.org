@@ -18,7 +18,7 @@ excerpt: >
 
 **FAKE Vulnerability Disclosure for Warnet games.**
 
-With Bitcoin Core v99.1.0 (), attackers could send blocks to nodes that were invalid causing them to crash.
+With Bitcoin Core v99.1.0, attackers could send blocks to nodes that were invalid causing them to crash.
 
 Vulnerable nodes have the user agent of `invalid-blocks:99.1.0`
 
