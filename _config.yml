@@ -39,6 +39,7 @@ exclude:
 
 include:
   - .well-known
+  - robots.txt
 
 defaults:
   -
