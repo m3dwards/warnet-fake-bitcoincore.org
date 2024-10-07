@@ -16,7 +16,7 @@ excerpt: >
   FAKE: An attacker could send over 50 orphans to a Bitcoin Core node which could be used to remotely crash it.
 ---
 
-FAKE Vulnerability Disclosure for Warnet games.
+**FAKE Vulnerability Disclosure for Warnet games.**
 
 With Bitcoin Core v99.1.0, attackers could spam nodes with over 50 orphan transactions which could be used to remotely crash peers.
 
