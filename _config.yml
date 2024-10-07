@@ -76,3 +76,5 @@ collections:
 
 strings:
   gpg_keyserver: " --keyserver hkps://keys.openpgp.org"  ## Prefix with a space
+
+future: true
