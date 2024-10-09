@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-# Local builds and CI builds of the BitcoinCore.org website do
+# Local builds and CI builds of the bitcorncore.org website do
 # not include the /bin directory holding Bitcoin Core binaries, so this
 # test extracts the local URLs from the download page and checks that
 # they exist on the remote server.  Only the file's HTTP headers are
@@ -22,7 +22,7 @@ do
   ## Handle relative and absolute URLs differently
   if [ "${url##http*}" ]
   then
-    curl -sI "https://bitcoincore.org${url}"
+    curl -sI "https://bitcorncore.org${url}"
   else
     curl -sI "$url"
   fi | egrep -q '(200 OK|HTTP/2 200)' || echo "Error: Could not retrieve $url"
