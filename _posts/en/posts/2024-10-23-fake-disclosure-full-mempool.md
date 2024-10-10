@@ -18,15 +18,15 @@ excerpt: >
 
 **FAKE Vulnerability Disclosure for Warnet games.**
 
-With Bitcoin Core v99.1.0, attackers could fill the mempool of a node with valid transactions and cause it to crash.
+With Bitcoin Core v96.0.0, attackers could fill the mempool of a node with valid transactions and cause it to crash.
 
-Vulnerable nodes have the user agent of `no-mp-trim:99.1.0`
+Vulnerable nodes have the user agent of `no-mp-trim:96.0.0`
 
 This issue is considered **CRITIAL** severity.
 
 ## Details
 
-Bitcoin Core version `no-mp-trim:99.1.0` will crash if it's mempool gets full. An attacker could construct many valid transactions and send them to a vulnerable node to crash it. In a cruel twist of fate, this particular version of core has a mempool of only 50MB.  This makes it susceptible to being DoSed.
+Bitcoin Core version `no-mp-trim:96.0.0` will crash if it's mempool gets full. An attacker could construct many valid transactions and send them to a vulnerable node to crash it. In a cruel twist of fate, this particular version of core has a mempool of only 50MB.  This makes it susceptible to being DoSed.
 
 ## Attribution
 

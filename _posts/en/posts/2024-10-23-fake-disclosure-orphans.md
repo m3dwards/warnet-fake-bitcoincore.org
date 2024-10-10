@@ -18,15 +18,15 @@ excerpt: >
 
 **FAKE Vulnerability Disclosure for Warnet games.**
 
-With Bitcoin Core v99.1.0, attackers could spam nodes with over 50 orphan transactions which could be used to remotely crash peers.
+With Bitcoin Core v97.0.0, attackers could spam nodes with over 50 orphan transactions which could be used to remotely crash peers.
 
-Vulnerable nodes have the user agent of `50-orphans:99.1.0`
+Vulnerable nodes have the user agent of `50-orphans:97.0.0`
 
 This issue is considered **CRITIAL** severity.
 
 ## Details
 
-Bitcoin Core version `50-orphans:99.1.0` will crash if it's sent over 50 orphan transactions.  This makes it susceptible to being DoSed.
+Bitcoin Core version `50-orphans:97.0.0` will crash if it's sent over 50 orphan transactions.  This makes it susceptible to being DoSed.
 
 ## Attribution
 
