@@ -18,15 +18,15 @@ excerpt: >
 
 **FAKE Vulnerability Disclosure for Warnet games.**
 
-With Bitcoin Core v99.1.0, attackers could send blocks to nodes that were invalid causing them to crash.
+With Bitcoin Core v98.0.0, attackers could send blocks to nodes that were invalid causing them to crash.
 
-Vulnerable nodes have the user agent of `invalid-blocks:99.1.0`
+Vulnerable nodes have the user agent of `invalid-blocks:98.0.0`
 
 This issue is considered **CRITIAL** severity.
 
 ## Details
 
-Bitcoin Core version `invalid-blocks:99.1.0` will crash if it's sent an invalid block.  This makes it susceptible to being DoSed.
+Bitcoin Core version `invalid-blocks:98.0.0` will crash if it's sent an invalid block.  This makes it susceptible to being DoSed.
 
 ## Attribution
 
