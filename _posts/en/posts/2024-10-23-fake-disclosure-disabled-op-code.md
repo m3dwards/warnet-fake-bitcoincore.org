@@ -18,15 +18,15 @@ excerpt: >
 
 **FAKE Vulnerability Disclosure for Warnet games.**
 
-With Bitcoin Core v99.1.0, attackers could send transactions to nodes that include disabled op_codes which could be used to remotely crash peers.
+With Bitcoin Core v95.0.0, attackers could send transactions to nodes that include disabled op_codes which could be used to remotely crash peers.
 
-Vulnerable nodes have the user agent of `disabled-opcodes:99.1.0`
+Vulnerable nodes have the user agent of `disabled-opcodes:95.0.0`
 
 This issue is considered **CRITIAL** severity.
 
 ## Details
 
-Bitcoin Core version `disabled-opcodes:99.1.0` will crash if it's sent a transaction that includes a disabled op_code (such as OP_CAT). This makes it susceptible to being DoSed.
+Bitcoin Core version `disabled-opcodes:95.0.0` will crash if it's sent a transaction that includes a disabled op_code (such as OP_CAT). This makes it susceptible to being DoSed.
 
 ## Attribution
 

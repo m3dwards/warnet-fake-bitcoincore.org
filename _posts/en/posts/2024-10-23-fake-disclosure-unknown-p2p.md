@@ -18,15 +18,15 @@ excerpt: >
 
 **FAKE Vulnerability Disclosure for Warnet games.**
 
-With Bitcoin Core v99.1.0, attackers could send an unknown P2P message which could be used to remotely crash peers.
+With Bitcoin Core v99.0.0, attackers could send an unknown P2P message which could be used to remotely crash peers.
 
-Vulnerable nodes have the user agent of `unknown-message:99.1.0`
+Vulnerable nodes have the user agent of `unknown-message:99.0.0`
 
 This issue is considered **CRITIAL** severity.
 
 ## Details
 
-Bitcoin Core version `unknown-message:99.1.0` will crash if it's sent an unknown P2P message.  This makes it susceptible to being DoSed.
+Bitcoin Core version `unknown-message:99.0.0` will crash if it's sent an unknown P2P message.  This makes it susceptible to being DoSed.
 
 ## Attribution
 
